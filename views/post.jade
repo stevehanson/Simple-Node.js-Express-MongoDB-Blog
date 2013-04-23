@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  
+  #articles
+    div.title= post.title
+    small= post.created_at
+    div.body= post.body
+  
